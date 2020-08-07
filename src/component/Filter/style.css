@@ -1,0 +1,32 @@
+.filters-conatainer {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.filters-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filter-type-text {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 5px 20% 10px 20%;
+    width: 60%;
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+
+.filter-type-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px 30px;
+    width: 75%;
+    margin: 0 12.5% 20px 12.5%;
+}
+
+.filter-button-div {
+    width: 100%;
+    height: 100%;
+}

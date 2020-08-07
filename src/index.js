@@ -4,7 +4,7 @@ import { ConnectedRouter } from 'react-router-redux';
 import { Provider } from 'react-redux';
 import createHistory from 'history/createBrowserHistory';
 import { buildStore } from "./store";
-import LaunchList from './container/LaunchList/index';
+import LaunchList from './container/LaunchListPage/index';
 import './index.css';
 
 const history = createHistory();

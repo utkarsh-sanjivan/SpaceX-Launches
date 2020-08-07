@@ -1,0 +1,53 @@
+.spacex-card {
+    max-width: 253px;
+    min-height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.spacex-card-image {
+    width: 88%;
+    margin: 6%;
+}
+
+.spacex-card-empty-image {
+    width: 88%;
+    margin: 6%;
+    min-height: 44%;
+}
+
+.spacex-card-content {
+    width: 80%;
+    margin: 10px 6%;
+}
+
+.spacex-card-name {
+    color: #535896;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: roboto;
+}
+
+.spacex-card-mission-text {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.spacex-card-mission-list {
+    font-size: 16px;
+    color: blue;
+    cursor: pointer;
+}
+
+.spacex-card-title {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.spacex-card-sub-title {
+    width: 50%;
+    font-size: 14px;
+    color: blue;
+}

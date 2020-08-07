@@ -1,0 +1,7 @@
+.launch-list-conatainer {
+    padding: 10px;
+    margin: 0px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px 15px;
+}
