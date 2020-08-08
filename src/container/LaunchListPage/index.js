@@ -45,10 +45,10 @@ class LaunchListPage extends React.Component {
             </div>
             <div className='launch-list-cards'>
                 {this.props.launchList.launchListLoading?
-                <Loader />
-                : <LaunchList 
-                  launches={this.state.launchList}
-                />}
+                  <Loader />
+                  : <LaunchList 
+                    launches={this.state.launchList}
+                  />}
             </div>
           </div>
           <div className='launch-list-footer'>Developer By: <span style={{ color: 'blue', fontWeight: '400' }}>Utkarsh Sanjivan</span></div>
