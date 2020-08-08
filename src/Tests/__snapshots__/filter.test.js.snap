@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test SpaceX FIlter Component 1`] = `
+<div
+  className="filters-conatainer"
+>
+  <div
+    className="filters-title"
+  >
+    Filters
+  </div>
+  <div
+    className="filter-type-text"
+  >
+    Launch Year
+  </div>
+  <div
+    className="filter-type-buttons"
+    style={
+      Object {
+        "gridTemplateRows": "30px 30px 30px 30px 30px 30px 30px 30px",
+      }
+    }
+  >
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2006
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2007
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2008
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2009
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2010
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2011
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2012
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2013
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2014
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2015
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2016
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2017
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2018
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2019
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        2020
+      </button>
+    </div>
+  </div>
+  <div
+    className="filter-type-text"
+  >
+    Successful Launch
+  </div>
+  <div
+    className="filter-type-buttons"
+    style={
+      Object {
+        "gridTemplateRows": "30px",
+      }
+    }
+  >
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          True
+        </span>
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          False
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="filter-type-text"
+  >
+    Successful Landing
+  </div>
+  <div
+    className="filter-type-buttons"
+    style={
+      Object {
+        "gridTemplateRows": "30px",
+      }
+    }
+  >
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          True
+        </span>
+      </button>
+    </div>
+    <div
+      className="filter-button-div"
+    >
+      <button
+        className="ant-btn unselected-color"
+        isSelected={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          False
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

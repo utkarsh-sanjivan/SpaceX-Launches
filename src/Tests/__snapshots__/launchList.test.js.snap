@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test SpaceX Launch List Component 1`] = `
+<div
+  className="launch-list-conatainer"
+/>
+`;

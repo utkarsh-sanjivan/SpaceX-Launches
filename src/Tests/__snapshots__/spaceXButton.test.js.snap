@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test SpaceX Button Component 1`] = `
+<button
+  className="ant-btn selected-color"
+  isSelected={true}
+  onClick={[Function]}
+  type="button"
+/>
+`;

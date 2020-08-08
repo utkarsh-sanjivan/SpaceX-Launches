@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test SpaceX Card Component 1`] = `
+<div
+  className="spacex-card"
+>
+  <div
+    className="ant-empty spacex-card-empty-image"
+  >
+    <div
+      className="ant-empty-image"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <img
+        alt="Image Unavailable"
+        src="https://gw.alipayobjects.com/zos/antfincdn/ZHrcdLPrvN/empty.svg"
+      />
+    </div>
+    <p
+      className="ant-empty-description"
+    >
+      Image Unavailable
+    </p>
+  </div>
+  <div
+    className="spacex-card-content"
+  >
+    <div
+      className="spacex-card-name"
+    >
+       #
+    </div>
+    <div
+      className="spacex-card-mission-text"
+    >
+      Mission Ids:
+    </div>
+    <div
+      className="spacex-card-mission-list"
+    >
+      { list Mission Ids }
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <p
+        className="spacex-card-title"
+      >
+        Launch Year:
+      </p>
+      <p
+        className="spacex-card-sub-title"
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <p
+        className="spacex-card-title"
+      >
+        Successful Launch:
+      </p>
+      <p
+        className="spacex-card-sub-title"
+      >
+        false
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <p
+        className="spacex-card-title"
+      >
+        Successful Landing:
+      </p>
+      <p
+        className="spacex-card-sub-title"
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        { launch landing }
+      </p>
+    </div>
+  </div>
+</div>
+`;
