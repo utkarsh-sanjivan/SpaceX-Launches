@@ -51,9 +51,17 @@
     }
 }
 
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 370px) {
     .launch-list-filter {
         margin: auto;
         width: 100%
+    }
+
+    .launch-list-footer {
+        font-size: 16px;
+    }
+
+    .launch-list-title {
+        font-size: 18px;
     }
 }

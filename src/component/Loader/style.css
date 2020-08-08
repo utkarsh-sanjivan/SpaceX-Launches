@@ -1,11 +1,30 @@
 .spacex-loader {
     color: #c5df9d;
     font-size: 200px;
-    margin: 25% 0% 0% 25%;
+    margin: 25% 0% 0% 40%;
 }
 
 @media only screen and (max-width: 700px) {
     .spacex-loader {
         margin: 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .spacex-loader {
+        font-size: 100px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 701) and (max-width: 800px) {
+    .spacex-loader {
+        margin: 25% 0% 0% 30%;
+    }
+}
+
+@media only screen and (min-width: 801) and (max-width: 900px) {
+    .spacex-loader {
+        margin: 25% 0% 0% 35%;
     }
 }
