@@ -1,6 +1,11 @@
 .spacex-loader {
-    position: absolute;
+    color: #c5df9d;
     font-size: 200px;
-    top: 25%;
-    left: 50%;
+    margin: 25% 0% 0% 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    .spacex-loader {
+        margin: 0;
+    }
 }

@@ -43,8 +43,8 @@ class LaunchListPage extends React.Component {
                 filterClicked={this.filterClicked}
               />
             </div>
-            <div style={{ backgroundColor: this.props.launchList.launchListLoading? '#c5df9d': '#f2f2f2' }} className='launch-list-cards'>
-              {this.props.launchList.launchListLoading?
+            <div className='launch-list-cards'>
+                {this.props.launchList.launchListLoading?
                 <Loader />
                 : <LaunchList 
                   launches={this.state.launchList}

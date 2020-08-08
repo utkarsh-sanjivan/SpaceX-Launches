@@ -23,7 +23,7 @@
 }
 
 .launch-list-filter {
-    width: 20%;
+    width: 276px;
 }
 
 .launch-list-cards {
@@ -34,4 +34,26 @@
     font-size: 18px;
     font-weight: 800;
     text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .launch-list-content {
+        display: block;
+    }
+
+    .launch-list-filter {
+        margin: auto;
+    }
+    
+    .launch-list-cards{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .launch-list-filter {
+        margin: auto;
+        width: 100%
+    }
 }

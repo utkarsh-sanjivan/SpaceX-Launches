@@ -3,7 +3,6 @@
     min-height: 400px;
     background-color: #fff;
     border-radius: 5px;
-
 }
 
 .spacex-card-image {
@@ -38,6 +37,9 @@
     font-size: 16px;
     color: blue;
     cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
 }
 
 .spacex-card-title {
@@ -50,4 +52,44 @@
     width: 50%;
     font-size: 14px;
     color: blue;
+}
+
+@media only screen and (max-width: 300px) {
+    .spacex-card-title {
+        font-size: 12px;
+    }
+
+    .spacex-card-sub-title {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 775px) {
+    .spacex-card-title {
+        font-size: 12px;
+    }
+
+    .spacex-card-sub-title {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1232px) {
+    .spacex-card-title {
+        font-size: 10px;
+    }
+
+    .spacex-card-sub-title {
+        font-size: 10px;
+    }
+
+    .spacex-card-mission-list {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .spacex-card {
+        margin: auto;
+    }
 }

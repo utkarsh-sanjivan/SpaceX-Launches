@@ -2,6 +2,18 @@
     padding: 10px;
     margin: 0px 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 15px 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .launch-list-conatainer {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .launch-list-conatainer {
+    grid-template-columns: auto;
+  }
 }
