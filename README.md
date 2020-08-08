@@ -3,25 +3,40 @@ This is a browsing application for all the launches done by SpaceX. Initially it
 
 ## Available Scripts
 Following are the scripts that are available,
+To start the application
 ```bash
 npm run start
 ```
--> To start the application<br />
+<br />
+To build the application
 ```bash
 npm run build
 ```
--> To build the application<br />
+<br />
+To run the test cases
 ```bash
 npm run test
 ```
--> To run the test cases<br />
-deploy -> To deploy the application on the Github.
+<br />
+To deploy the application on the Github.
+```bash
+npm run deploy
+```
+<br />
 
 ## Accessing the application
 The application is deployed on https://utkarsh-sanjivan.github.io/SpaceX-Launches/ and can be accessed there.
 
 ## Lighthouse Report
 ![Alt text](/public/LightHouseReport.png?raw=true "Optional Title")
+
+### Technologies Used
+* [HTML](#html)
+* [CSS](#css)
+* [React](#react)
+* [Redux](#redux)
+* [Saga](#saga)
+* [Ant Design](#and_design)
 
 ## Approach
 In this application I have used technologies like HTML, CSS, React, Redux and Ant Design. I have decided to use React over other front end technologies as React is faster and unlike most, this a library that gives me freedom to use any module that I see fit for the application. I am using axios for calling the APIs.<br /><br />
